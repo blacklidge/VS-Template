@@ -47,7 +47,7 @@
     "lodash.debounce": "^4.0.8",
     "lodash.isequal": "^4.5.0",
     "netlify-cms-app": "2.14.32",
-    "node-sass": "^4.14.1",
+    "node-sass": "^4.11.0",
     "prismjs": "^1.23.0",
     "query-string": "^7.0.0",
     "react": "^16.14.0",
