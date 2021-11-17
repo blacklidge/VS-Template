@@ -5,7 +5,7 @@ featuredImage: /assets/Experiences-Header-6.jpg
 secondaryImage: /assets/transparent.png
 underlayImage: /assets/transparent.png
 showInfo: true
-youtuber: ""
+youtuber: "https://youtu.be/ldIaeCshNN8"
 youtubeautostart: "1"
 title: ALWAYS THE BETTER ROAD
 svgImage: /assets/null.svg
@@ -14,7 +14,7 @@ cta:
   ctaText: See the Posts
   ctaLink: /#posts
 youtubeend: ""
-showFeature: ""
+showFeature: "1"
 youtubecontrols: ""
 template: index-page
 youtubemute: "1"
