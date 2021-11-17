@@ -2,7 +2,8 @@ import * as React from "react"
 import { Footer } from "./footer"
 import { Seo } from "./seo"
 // import '@fontsource/roboto'
-import "@fontsource/ibm-plex-sans"
+import "@fontsource/ibm-plex-sans/"
+import "@fontsource/ibm-plex-sans/700.css"
 import { Link } from 'gatsby-plugin-modal-routing-3'
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-3'
 import { AiOutlineClose } from "react-icons/ai"
