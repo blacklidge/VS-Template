@@ -82,7 +82,7 @@ const CaseStudyPanels = () => (
                 textAlign:'center',
               }}
               href="/about/"
-            >Learn More about UltraFuse®</a>
+            >About UltraFuse®</a>
   </div>
 
         </div>
@@ -131,7 +131,7 @@ const CaseStudyPanels = () => (
                 textAlign:'center',
               }}
               href="/about/"
-            >Learn More</a>
+            >About UltraTack®</a>
   </div>
 
         </div>
@@ -175,7 +175,7 @@ const CaseStudyPanels = () => (
                 textAlign:'center',
               }}
               href="/about/"
-            >Learn More</a>
+            >About ReGen®</a>
   </div>
 
         </div> 

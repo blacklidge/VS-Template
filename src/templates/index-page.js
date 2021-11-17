@@ -382,14 +382,7 @@ const YouTube = frontmatter.youtuber
             
                       <h1 className="title1" style={{fontWeight:'bold', fontSize:''}}><strong>{frontmatter.title}</strong></h1>
                       
-                      <h2
-                        className="tagline1"
-                        sx={{
-                          color: "",
-                        }}
-                      >
-                        {frontmatter.tagline}
-                      </h2>
+                      <br /><br />
             
                       <div
                       style={{}}
@@ -397,7 +390,7 @@ const YouTube = frontmatter.youtuber
                         dangerouslySetInnerHTML={{ __html: html }}
                       />
               
-              <br />
+              {/* <br />
                       <Link
                         to={frontmatter.cta.ctaLink}
                         className="button fire actionJackson"
@@ -417,7 +410,7 @@ const YouTube = frontmatter.youtuber
                         </span>
             
                         
-                      </Link>
+                      </Link> */}
                   </div>
             
             
@@ -475,9 +468,29 @@ const YouTube = frontmatter.youtuber
 
 
 
+<ScrollAnimation className="" animateIn="bounceInUp" delay={100} initiallyVisible={false} animateOnce={true} animatePreScroll={true}>
+        <div
+  className="title1 txtshadow-header"
+  style={{
+   position: 'relative',
+    textAlign: 'center', 
+    float: 'none',
+    margin:'0 0 10px 0',
+    padding:'0',
+    fontSize:'1.7rem',
+    background:'#edad3d',
+    width:'70vw',
+    margin:'0 auto',
+    borderRadius:'12px 12px 0 0',
+  }}
+>
+<span  className="" style={{fontSize:'100%', fontWeight:'bold', textTransform:'', background:'', borderRadius:'12px 12px 0 0', marginTop:'-80px', position:'relative', width:'100%', margin:'0 auto', display:'flex', justifyContent:'center', textShadow:'2px 1px 1px #222', filter:'drop-shadow(0px 0px 10px #edad3d)', border:'1px 1px 0 0 solid #000', fontSize:'40px', color:'#fff' }}>Product  Spotlight</span></div>
+
+
+
 
 <CasePanels />
-
+</ScrollAnimation>
 
 
 
