@@ -1,13 +1,13 @@
 ---
 slug: /
-tagline: VidSocks are the next generation of multimedia blogging built into the fastest cloud=based web apps available today.
+tagline: Blacklidge - PERFORMANCE. RELIABILITY.
 featuredImage: /assets/Experiences-Header-6.jpg
 secondaryImage: /assets/transparent.png
 underlayImage: /assets/transparent.png
 showInfo: true
 youtuber: ""
 youtubeautostart: "1"
-title: Welcome to VidSocks!
+title: ALWAYS THE BETTER ROAD
 svgImage: /assets/null.svg
 showPosts: true
 cta:
@@ -21,16 +21,17 @@ youtubemute: "1"
 svgzindex: ""
 youtubestart: ""
 ---
-<h2 style="font-weight:bold; font-size:125%;">What are VidSocks?</h2>
+<h2 style="font-weight:bold; font-size:125%;">Making Roads To A Better World</h2>
 <br />
-VidSocks are state-of-the-art web apps that feature custom layered multimedia (animation, cutout-photos, video, and audio) crafted together to give the viewer a whole new sensory experience.
+Building better, longer-lasting roads isn’t the easiest thing to do, but it’s the right thing to do. That’s why we dedicate ourselves to superior customer service and developing the highest performing and most sustainable asphalt products on the market to build a company we can all be proud of. 
+<br />
 
-<h3 style="font-weight:bold; font-size:115%; margin:1rem 0; text-align:center"> Built for artists, photographers, musicians, clubs &amp; restaurants and any other small businesses</h3>
+<h3 style="font-weight:bold; font-size:115%; margin:1rem 0; text-align:center"><strong>Here at Blacklidge, it’s always the better road.</strong></h3>
 
- Have a <strong>BIG</strong> presence on the web. VidSocks are designed to give every advantage in <em>maximize your artwork, reduce load times and increase SEO results</em>. <br />
+ <!-- Have a <strong>BIG</strong> presence on the web. VidSocks are designed to give every advantage in <em>maximize your artwork, reduce load times and increase SEO results</em>. <br />
 
  <div style="text-align:center; text-decoration:underline"><a href="/about/">Check out the full list of VidSocks features</a></div>
- <br />
+ <br /> -->
 
 
 

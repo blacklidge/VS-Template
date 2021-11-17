@@ -1,20 +1,20 @@
 {
   "meta": {
-    "iconimage": "/assets/logo.svg",
+    "iconimage": "/assets/blacklidge-logo.png",
     "favicon32x32": "/assets/favicon-32x32.png",
     "favicon16x16": "/assets/favicon-16x16.png",
-    "companyname": "VidSocks",
-    "siteUrl": "https://vidsock.com/",
-    "twitterUsername": "vidsocks",
-    "titleDefault": "VidSocks",
+    "companyname": "Blacklidge",
+    "siteUrl": "https://blacklidge.netlify.app/",
+    "twitterUsername": "blacklidge",
+    "titleDefault": "Blacklidge",
     "postcount": "1",
     "icon192": "/assets/icon-192x192.png",
     "titleTemplate": "%s",
     "comments": "5732401321869312-proj",
-    "title": "VidSocks",
+    "title": "Blacklidge",
     "showfooter": true,
     "image": "/assets/default-og-image.jpg",
-    "description": "VidSocks - NextGen Web App Platform",
+    "description": "Blacklidge - PERFORMANCE. RELIABILITY.",
     "icon512": "/assets/icon-512x512.png"
   },
   "ga": "G-FRM0PVXTRX"
