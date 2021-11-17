@@ -81,7 +81,7 @@ const CaseStudyPanels = () => (
                 backgroundColor:'#000 !important',
                 textAlign:'center',
               }}
-              href=""
+              href="/about/"
             >Learn More about UltraFuse®</a>
   </div>
 
@@ -130,7 +130,7 @@ const CaseStudyPanels = () => (
                 backgroundColor:'#000 !important',
                 textAlign:'center',
               }}
-              href=""
+              href="/about/"
             >Learn More</a>
   </div>
 
@@ -174,7 +174,7 @@ const CaseStudyPanels = () => (
                 backgroundColor:'#000 !important',
                 textAlign:'center',
               }}
-              href=""
+              href="/about/"
             >Learn More</a>
   </div>
 
