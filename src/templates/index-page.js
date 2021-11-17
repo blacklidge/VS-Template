@@ -11,6 +11,7 @@ import { Helmet } from "react-helmet"
 import { StaticImage } from "gatsby-plugin-image"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 import ReactPlayer from 'react-player/lazy'
+import CasePanels from "../components/casepanels"
 // import { ImPlay } from "react-icons/im"
 import styled from "styled-components"
 import Newsignup from "../components/newssign"
@@ -345,19 +346,41 @@ const YouTube = frontmatter.youtuber
           )}
 
 
+
+
+
+
+      </div>
+  </article>
+</section>
+
+
+
+
+) : (
+  ""
+)}
+{/* end show feature */}
+
+
+
+
+<br />
+
 {/* show Info */}
 {ShowInfo ? (
             
        
 
 
-            <section style={{ display:'', height:'', overflow:'', position:'absolute', zIndex:'2'}}>
+            <section style={{ display:'', height:'', overflow:'', position:'', zIndex:'', top:''}}>
+              {/* <section style={{ display:'', height:'', overflow:'', position:'relative', zIndex:'1', top:'-70vh'}}> */}
               <article>
             <div className="flexbutt" style={{display:'flex', gap:'30px'}}>
                   <div className="flexcheek " style={{padding:'0 2rem', maxHeight:'90vh',}}>
             
             
-                      <h1 className="title1" style={{fontWeight:'bold', fontSize:'3rem'}}><strong>{frontmatter.title}</strong></h1>
+                      <h1 className="title1" style={{fontWeight:'bold', fontSize:''}}><strong>{frontmatter.title}</strong></h1>
                       
                       <h2
                         className="tagline1"
@@ -452,22 +475,8 @@ const YouTube = frontmatter.youtuber
 
 
 
-      </div>
-  </article>
-</section>
 
-
-
-
-) : (
-  ""
-)}
-{/* end show feature */}
-
-
-
-
-<br />
+<CasePanels />
 
 
 

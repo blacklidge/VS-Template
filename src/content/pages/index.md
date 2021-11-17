@@ -4,11 +4,14 @@ tagline: Blacklidge - PERFORMANCE. RELIABILITY.
 featuredImage: /assets/Experiences-Header-6.jpg
 secondaryImage: /assets/transparent.png
 underlayImage: /assets/transparent.png
+description: I’ll begin by saying that to me, the titling of my images is very
+  important. It is a “non-crucial”, but effective tool that the photographer has
+  to imprint something extra onto their work.
 showInfo: true
 youtuber: "https://youtu.be/ldIaeCshNN8"
 youtubeautostart: "1"
 title: ALWAYS THE BETTER ROAD
-svgImage: /assets/null.svg
+svgImage: /assets/logo.svg
 showPosts: true
 cta:
   ctaText: See the Posts

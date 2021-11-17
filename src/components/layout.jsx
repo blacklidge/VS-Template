@@ -12,6 +12,22 @@ import "../styles/variables.css"
 import "../styles/global.css"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 import "../assets/scss/style.scss"
+import {
+  RiFacebookBoxFill,
+  RiTwitterFill,
+  RiLinkedinBoxFill,
+  RiYoutubeFill,
+  RiInstagramFill,
+  RiRssFill,
+  RiGithubFill,
+  RiTelegramFill,
+  RiPinterestFill,
+  RiSnapchatFill,
+  RiSkypeFill,
+  RiDribbbleFill,
+  RiMediumFill,
+  RiBehanceFill,
+} from "react-icons/ri"
 export function Layout({ children }) {
   const { iconimage } = useSiteMetadata()
 
@@ -71,6 +87,12 @@ export function Layout({ children }) {
 {/* <span>VidSocks Don't Stink</span> */}
 </Link>
  </li>
+
+ <li className="carto" style={{textAlign:'center'}}>
+ <Link className="navbar-item txtshadow" to="/">
+Home
+</Link>
+</li>
  
  <li className="carto" style={{textAlign:'center'}}>
  <Link className="navbar-item txtshadow" to="/contact/">
@@ -85,11 +107,54 @@ About
 </Link>
 </li>
 
+<li className="carto" style={{textAlign:'center'}}>
+ <Link className="navbar-item txtshadow" to="/about/">
+Technology
+</Link>
+</li>
+
+<li className="carto" style={{textAlign:'center'}}>
+ <Link className="navbar-item txtshadow" to="/about/">
+Products
+</Link>
+</li>
+
+<li className="carto" style={{textAlign:'center'}}>
+ <Link className="navbar-item txtshadow" to="/about/">
+Who We Serve
+</Link>
+</li>
+
+<li className="carto" style={{textAlign:'center'}}>
+ <Link className="navbar-item txtshadow" to="/about/">
+Resource Center
+</Link>
+</li>
+
 
 <li className="carto" style={{textAlign:'center'}}>
             <Link className="navbar-item txtshadow" to="/posts/">
            Latest
            </Link>
+           </li>
+
+
+           <li className="carto" style={{textAlign:'center', fontSize:'24px', display:'flex', justifyContent:'space-around', paddingTop:'1rem'}}>
+           <a aria-label="Link to Facebook" title="Facebook" className="social" href="https://facebook.com" rel="noreferrer" target="_blank">
+          <RiFacebookBoxFill />
+        </a>
+        <a aria-label="Link to Twitter" title="Twitter" className="social" href="https://twitter.com" rel="noreferrer" target="_blank">
+          <RiTwitterFill />
+        </a>
+
+        <a aria-label="Link to LinkIn" title="LinkedIn" className="social" href="https://linkedin.com" rel="noreferrer" target="_blank">
+          <RiLinkedinBoxFill />
+        </a>
+
+        <a aria-label="Link to Instagram" title="Instgram" className="social" href="https://instagram.com" rel="noreferrer" target="_blank">
+          <RiInstagramFill />
+        </a>
+
            </li>
 
 

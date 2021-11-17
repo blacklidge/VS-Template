@@ -43,10 +43,10 @@ body,h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.specia
 .bug{
 max-width:80px !important;
 height: auto !important;
-opacity:.2;
+opacity:.4;
 }
 .bug:hover{
-  opacity:.6 !important;
+  opacity:.8 !important;
   }
 
 
