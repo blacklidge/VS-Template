@@ -88,34 +88,34 @@ export function Layout({ children }) {
 </Link>
  </li>
 
- <li className="carto" style={{textAlign:'center'}}>
+ {/* <li className="carto" style={{textAlign:'center'}}>
  <Link className="navbar-item txtshadow" to="/">
 Home
 </Link>
-</li>
+</li> */}
  
  <li className="carto" style={{textAlign:'center'}}>
  <Link className="navbar-item txtshadow" to="/contact/">
-Contact
+Contact Information
 </Link>
 </li>
 
 
  <li className="carto" style={{textAlign:'center'}}>
  <Link className="navbar-item txtshadow" to="/about/">
-About
+About Blacklidge
 </Link>
 </li>
 
 <li className="carto" style={{textAlign:'center'}}>
  <Link className="navbar-item txtshadow" to="/about/">
-Technology
+Technology &amp; Innovation
 </Link>
 </li>
 
 <li className="carto" style={{textAlign:'center'}}>
  <Link className="navbar-item txtshadow" to="/about/">
-Products
+High Performance Products
 </Link>
 </li>
 
@@ -134,12 +134,13 @@ Resource Center
 
 <li className="carto" style={{textAlign:'center'}}>
             <Link className="navbar-item txtshadow" to="/posts/">
-           Latest
+           Our Latest Posts
            </Link>
            </li>
 
 
-           <li className="carto" style={{textAlign:'center', fontSize:'24px', display:'flex', justifyContent:'space-around', paddingTop:'1rem'}}>
+           <li className="carto" style={{textAlign:'center', fontSize:'30px', display:'flex', justifyContent:'space-around', paddingTop:'1rem'}}>
+
            <a aria-label="Link to Facebook" title="Facebook" className="social" href="https://facebook.com" rel="noreferrer" target="_blank">
           <RiFacebookBoxFill />
         </a>

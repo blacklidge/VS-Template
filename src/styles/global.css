@@ -1300,7 +1300,7 @@ body.homepage .mobilespace{
   background: linear-gradient(180deg, #333 1%, #111 80%);
   border-left:1px solid rgba(255, 255, 255, 0.10);
   border-radius: 12px 0 0 12px !important;
-  min-width: 220px;
+  min-width: 250px;
   
 
 }
@@ -1321,7 +1321,12 @@ body.homepage .mobilespace{
 
 
 
-
+    .vartext{
+      font-size: 1.2rem;
+      font-size:clamp(1.2rem, 2vw, 2.2rem);
+        
+      }
+      
 
 .sidebarMenuInner li{
   list-style: none;
@@ -1356,7 +1361,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle {
 display:none !important;
 }
 
-
+color{color:#f2b407}
 input[type=checkbox] {
   transition: all 0.3s;
   box-sizing: border-box;

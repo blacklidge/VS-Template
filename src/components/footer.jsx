@@ -1,10 +1,11 @@
 import * as React from "react"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
-
+import ScrollAnimation from 'react-animate-on-scroll'
 import Theme from "../components/theme"
 import Consent from "../components/Consent"
-// import Install from "../components/Install-footer"
+import Install from "../components/Install-footer"
 import Icons from "../util/socialmedia.json"
+import { FaHandPointDown } from "react-icons/fa"
 import {
   RiFacebookBoxFill,
   RiTwitterFill,
@@ -22,9 +23,8 @@ import {
   RiBehanceFill,
 } from "react-icons/ri"
 import { FaWordpress, FaVk } from "react-icons/fa"
-
-
 import { Link } from "gatsby"
+
 import {
   footerStyle,
   // links,
@@ -196,18 +196,29 @@ export function Footer() {
 
     showfooter ? (
   
+<>
 
 
+<ScrollAnimation className="" animateIn="zoomInUp" delay={50} initiallyVisible={false} animateOnce={false} animatePreScroll={false}>
 
-    <footer className={footerStyle} style={{padding:'0 0', marginTop:'0', position:'relative'}}>
+{/* <ScrollAnimation className="" animateIn="bounce" delay={10} initiallyVisible={true} animateOnce={false} animatePreScroll={true}> */}
 
+{/* </ScrollAnimation> */}
+
+    <footer className={footerStyle} style={{padding:'1rem 0', marginTop:'2rem', position:'relative'}}>
+
+    {/* <FaHandPointDown className="bounce" style={{fontSize:'80px', textAlign:'center', width:'100%', position:'absolute', top:'-80px', margin:'1rem auto', color:'#fff',}} /> */}
     <Consent />
 
     
       <div className={blurb}>
 
 
-        <Link state={{modal: true}} to="/contact/" className="navbar-item  button fire" style={{margin:'10px 2rem 2rem 2rem', textDecoration:'none'}}>Contact Us - We Love Feedback</Link>
+        <Link state={{modal: true}} to="/contact/" className="navbar-item  button fire" style={{margin:'10px 2rem 2rem 2rem', textDecoration:'none'}}>Got Questions?</Link>
+
+
+
+        <Install />
 
  <div >
      
@@ -235,10 +246,11 @@ export function Footer() {
 <div style={{textAlign: 'center', margin: '0 0 2rem 0', justifyContent: 'center', fontSize: '.75rem', position:'relative', right:'', top:'10px'}}>
 <Theme  style={{display:'flex', alignSelf:'center',}} />
 
-<br />
+{/* <br />
 <br />
 
-<a href="https://vidsock.com" target="_blank" rel="noreferrer">Web App by VidSock</a> &nbsp; | &nbsp; <a href={speedIt} target="_blank" rel="noreferrer">Site Report Card</a></div>
+<a href="https://vidsock.com" target="_blank" rel="noreferrer">Web App by VidSock</a> &nbsp; | &nbsp; <a href={speedIt} target="_blank" rel="noreferrer">Our Site Report Card</a> */}
+</div>
 
 
 
@@ -247,7 +259,8 @@ export function Footer() {
       </nav>
    
     </footer>
-
+    </ScrollAnimation>
+</>
     ) : (
       ""
     )
