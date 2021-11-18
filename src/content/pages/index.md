@@ -11,7 +11,7 @@ showInfo: true
 youtuber: "https://youtu.be/ldIaeCshNN8"
 youtubeautostart: "1"
 title: ALWAYS THE BETTER ROAD
-svgImage: /assets/logo.svg
+svgImage: /assets/Intro.svg
 showPosts: true
 cta:
   ctaText: See the Posts
