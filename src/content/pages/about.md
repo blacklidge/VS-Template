@@ -27,7 +27,6 @@ title: About VidSocks
 
 <li>Customize all content of included Homepage, About and Contact page. Add / Modify / Delete blog posts.</li>
 
-
 <li>Hide/Show Comments, Social Sharing, or User-interactivity (youtube video changer) on a post-by-post basis</li>
 
 <li>Control YouTube videos with starting/stopping times, loop, mute, etc..</li>

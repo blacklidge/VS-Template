@@ -25,6 +25,6 @@ youtubeautostart: "1"
 svgImage: /assets/null.svg
 svgzindex: ""
 ---
-<h2 style="font-size:150%">What are VidSocks?</h2>
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RzN_q0NOsrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
