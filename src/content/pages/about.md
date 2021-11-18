@@ -4,6 +4,25 @@ slug: /about
 title: About the site
 ---
 
+
+Existing Site Scores
+
+
+<img src="../assets/existing-site.png" alt="Site Speed Scores" width="100%" height="100%" />
+
+Existing Site Scores
+
+<img src="../assets/new-site.png" alt="Site Speed Scores" width="100%" height="100%" />
+
+
+
+As you can see, very dramatic difference in loading times. 
+
+
+
+
+
+
 <h2 style="font-size:150%">Site Highlights:</h2>
           
 <ul className="featurelist" style="list-style-type:none">
