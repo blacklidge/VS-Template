@@ -10,7 +10,7 @@ Existing Site Scores
 
 <img src="../assets/existing-site.png" alt="Site Speed Scores" width="100%" height="100%" />
 
-Existing Site Scores
+New Site Scores
 
 <img src="../assets/new-site.png" alt="Site Speed Scores" width="100%" height="100%" />
 
