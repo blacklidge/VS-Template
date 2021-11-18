@@ -377,8 +377,10 @@ const YouTube = frontmatter.youtuber
             <section style={{ display:'', height:'', overflow:'', position:'', zIndex:'', top:''}}>
               {/* <section style={{ display:'', height:'', overflow:'', position:'relative', zIndex:'1', top:'-70vh'}}> */}
               <article>
-            <div className="flexbutt" style={{display:'flex', gap:'30px'}}>
-                  <div className="flexcheek " style={{padding:'0 2rem', maxHeight:'90vh',}}>
+            <div className="flexbutt" style={{display:'flex', gap:'30px', padding:'0 10%'}}>
+
+            <ScrollAnimation className="" animateIn="bounceInLeft" delay={110} initiallyVisible={false} animateOnce={true} animatePreScroll={true}>
+                  <div className="flexcheek " style={{padding:'0 2rem', maxHeight:'90vh', width:'100%'}}>
             
             
                       <h1 className="title1" style={{fontWeight:'bold', fontSize:''}}><strong>{frontmatter.title}</strong></h1>
@@ -413,18 +415,19 @@ const YouTube = frontmatter.youtuber
                         
                       </Link> */}
                   </div>
-            
+            </ScrollAnimation>
             
             
                     
             
-            
+                  <ScrollAnimation className="" animateIn="bounceInRight" delay={110} initiallyVisible={false} animateOnce={true} animatePreScroll={true}>
+
                   <div className="flexcheek" style={{position:'relative', maxHeight:'70vh', overflow:'', marginBottom:'', borderRadius:'0 0 12px 12px'}}>
              
              
             
             
-             <div style={{margin:'0 30px', zIndex:'', borderRadius:'12px', maxHeight:'70vh', overflow:'', position:'relative', display:'', justifyContent:'', alignItems:'', flexDirection:'column'}}>
+             <div style={{margin:'0 30px', zIndex:'', width:'100%', margin:'0 auto', minWidth:'400px',  borderRadius:'12px', maxHeight:'70vh', overflow:'', position:'relative', display:'', justifyContent:'', alignItems:'', flexDirection:'column'}}>
                
             
             
@@ -446,17 +449,17 @@ const YouTube = frontmatter.youtuber
             
             
             
-            <ScrollAnimation className="" animateIn="bounceInUp" delay={550} initiallyVisible={false} animateOnce={true} animatePreScroll={true} style={{position:'', margin:'', padding:'',  width:'', zIndex:'', textAlign:'',}}>
+            
             <div style={{position:'relative', top:'', margin:'0', padding:'25% 0',  width:'', zIndex:'1', textAlign:'', borderRadius:'12px',}}>
               <Newsignup />
               </div>
-            </ScrollAnimation>
+            
 
             </div>
             
                   
 
-                  </div> 
+                  </div> </ScrollAnimation>
             </div>
             </article>
             </section>
@@ -470,7 +473,7 @@ const YouTube = frontmatter.youtuber
 
 
 
-            <ScrollAnimation className="" animateIn="bounceInRight" delay={110} initiallyVisible={false} animateOnce={true} animatePreScroll={true}>
+            <ScrollAnimation className="" animateIn="bounceInUp" delay={110} initiallyVisible={false} animateOnce={true} animatePreScroll={true}>
 <div className="flexbutt featurebox" style={{display:'flex', margin:'20px 8%', padding:'', gap:'20px'}}>
 
 
@@ -621,6 +624,7 @@ const YouTube = frontmatter.youtuber
 {/* end show Posts */}
 {ShowPosts ? (
 
+<ScrollAnimation className="" animateIn="bounceInUp" delay={100} initiallyVisible={false} animateOnce={true} animatePreScroll={true}>
 <div id="posts" name="posts">
 
 <div
@@ -641,22 +645,7 @@ const YouTube = frontmatter.youtuber
 <span  className="" style={{fontSize:'100%', fontWeight:'bold', textTransform:'', background:'', borderRadius:'12px 12px 0 0', marginTop:'-80px', position:'relative', width:'100%', margin:'0 auto', display:'flex', justifyContent:'center', textShadow:'2px 1px 1px #222', filter:'drop-shadow(0px 0px 10px #edad3d)', border:'1px 1px 0 0 solid #000', fontSize:'40px', color:'#fff' }}>Latest Posts</span></div>
         <BlogListHome data={posts} />
 
-        <div
-  className="title1 txtshadow-header"
-  style={{
-   position: 'relative',
-    textAlign: 'center', 
-    float: 'none',
-    margin:'0 0 10px 0',
-    padding:'0',
-    fontSize:'1.7rem',
-    background:'#edad3d',
-    width:'70vw',
-    margin:'0 auto',
-    borderRadius:'12px 12px 0 0',
-  }}
->
-<span  className="" style={{fontSize:'100%', fontWeight:'bold', textTransform:'', background:'', borderRadius:'12px 12px 0 0', marginTop:'-80px', position:'relative', width:'100%', margin:'0 auto', display:'flex', justifyContent:'center', textShadow:'2px 1px 1px #222', filter:'drop-shadow(0px 0px 10px #edad3d)', border:'1px 1px 0 0 solid #000', fontSize:'40px', color:'#fff' }}>Latest Posts</span></div>
+
 
         <section style={{height:'auto'}}>
   <Link to="/posts/" style={{display:'block', width:'100%'}}><article className="post-card" style={{height:'50%', display:'flex', flexDirection:'row', justifyContent:'center', border:'1px solid', padding:'2rem', fontSize:'200%', textAlign:'center' }}>
@@ -665,7 +654,7 @@ const YouTube = frontmatter.youtuber
     </section>
 
    </div>
-
+</ScrollAnimation>
   
 
    ) : (
