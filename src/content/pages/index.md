@@ -26,7 +26,7 @@ youtubestart: ""
 ---
 <h2 style="font-weight:bold; font-size:125%;">Making Roads To A Better World</h2>
 <br />
-Building better, longer-lasting roads isn’t the easiest thing to do, but it’s the right thing to do. That’s why we dedicate ourselves to superior customer service and developing the highest performing and most sustainable asphalt products on the market to build a company we can all be proud of. 
+Building better, longer-lasting roads isn’t the easiest thing to do, but it’s the right thing to do. That’s why we dedicate ourselves to superior customer service and developing the highest performing and most sustainable asphalt products on the market to build a company we can all be proud of.
 <br />
 
 <h3 style="font-weight:bold; font-size:115%; margin:1rem 0; text-align:center"><strong>Here at Blacklidge, it’s always the better road.</strong></h3>
