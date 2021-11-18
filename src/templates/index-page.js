@@ -377,7 +377,7 @@ const YouTube = frontmatter.youtuber
             <section style={{ display:'', height:'', overflow:'', position:'', zIndex:'', top:''}}>
               {/* <section style={{ display:'', height:'', overflow:'', position:'relative', zIndex:'1', top:'-70vh'}}> */}
               <article>
-            <div className="flexbutt" style={{display:'flex', gap:'30px', padding:'0 '}}>
+            <div className="flexbutt" style={{display:'flex', gap:'30px', padding:'0', width:'100%'}}>
 
             <ScrollAnimation className="" animateIn="bounceInLeft" delay={110} initiallyVisible={false} animateOnce={true} animatePreScroll={true}>
 
@@ -519,12 +519,13 @@ const YouTube = frontmatter.youtuber
 
 
 
-
+<div style={{overflow:'hidden', width:'100vw'}}>
 <CasePanels />
+</div>
 </ScrollAnimation>
 
 
-
+<br /><br />
 
 
 
